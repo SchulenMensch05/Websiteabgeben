@@ -1,0 +1,77 @@
+footer {
+	background-color: grey;
+}
+
+.footerdiv {
+	color:black;
+	font-size:18px;
+	padding:14.5px;
+	border:groove;
+}
+
+.readingbd {
+	background-color: bisque
+}
+
+.readdiv {
+	padding-left: 350px; padding-right: 400px;
+}
+
+.readP {
+	font-size: 22px;
+}
+
+.readingbd {
+	background-color: bisque;
+}
+
+.boxP {
+	text-align: center;
+	vertical-align:bottom;
+}
+
+.aBox {
+	border:solid;
+	color:black;
+}
+
+#bodyindex {
+	background-image:url(2016Brainrot.png)
+}
+
+#divindex {
+	background-color:rgba(180,134,102,1);
+	color:DarkGreen;
+	text-align:center;
+}
+
+#submit {
+	width: 80px;
+	height: 25px;
+	color: Maroon;
+}
+
+#Nachricht {
+	width: 150px;
+	height: 50px;
+}
+
+#webde {
+	position: absolute;
+	top: 20px;
+	left: 275px;
+	height: 75px;
+	width: 75px;
+	border: outset;
+	border-color: grey;
+}
+
+#gclspng {
+	border: outset;
+	border-color: grey;
+	height: 175px;
+	width: 175px;
+	position: absolute;
+	margin-top: -175px;
+	margin-left: -300px;
+}
