@@ -3,7 +3,7 @@
 <head>
 	<title>Anonymität</title>
 	<meta charset="utf-8">
-	<link rel="icon" type="image/x-icon" href="Bild.png">
+	<link rel="icon" type="image/x-icon" href="pngs/Bild.png">
 	<link rel="stylesheet" type="text/css" href="styles
 	.css">
 </head>
@@ -23,8 +23,9 @@
 		<h2>Wie kann ich das nun verhindern?</h2>
 		<p class="readP">Naja, dazu gibt es keine eindeutige Antwort. Es gibt viele viele dinge die man miteinander Kombinieren muss und auf die man achten muss, um wirklich anonym im Internet zu sein. Es ist eine Mischung aus Verhaltensweisen, Platformen die man benutzt und Tools um sich zu anonymisieren.</p>
 		<h3>Vpns</h3>
-		<p class="readP">Vpns können dafür sorgen, dass der Internetanbieter. nicht mehr sieht, auf was du im Internet zugreifst. Das funktioniert indem du dich,  bevor du zu dem internet verbindest, zu einem VPN server verbindest. Vorteile sind: Die Verbindung ist Verschlüsselt und du benutzt keinen DNS von deinem Internetanbieter. Jetzt ist ein weiteres Problem, dass du deine Verbindung nicht sicherst sondern einfach nur das Vertrauen von deinem Anbieter zu dem Anbieter des VPNS gibst. Ob das besser ist kommt auf folgende Kriterien an: Speichert der VPN anbieter Kunden daten?(von kauf bis benutzung). Laufen die server auf Ram? Ist die verbindung verschlüsselt und entstehen keine DNS leaks?(Zeigt wahre IP adresse.) uvm.</p>
-		<h3>to be continued...</h3>
+		<p class="readP">Vpns können dafür sorgen, dass der Internetanbieter. nicht mehr sieht, auf was du im Internet zugreifst. Das funktioniert indem du dich,  bevor du zu dem internet verbindest, zu einem VPN server verbindest. Vorteile sind: Die Verbindung ist Verschlüsselt und du benutzt den DNS des VPN anbieters. Jetzt ist ein weiteres Problem, dass du deine Verbindung nicht sicherst sondern einfach nur das Vertrauen von deinem Anbieter zu dem Anbieter des VPNS gibst. Ob das besser ist kommt auf folgende Kriterien an: Speichert der VPN anbieter Kunden daten?(von kauf bis benutzung). Laufen die server auf Ram? Ist die verbindung verschlüsselt und entstehen keine DNS leaks?(Zeigt wahre IP adresse.) uvm. Deshalb ist die Auswahl eines vertrauten VPN anbieters wichtig. Sofern die Anonymität eine Rolle spielt.</p>
+		<h3>DNS Auswahl</h3>
+		<p class="readP">Wie schon vorhin besprochen, ermöglicht der DNS server auch gewisse Tracking Aspekte. Aus dem Grund, sollte man nicht den Netzwerkeigenen DNS Server benutzen, dadurcht ermöglicht ihr dem Internetanbieter noch mehr tracking möglichkeiten. Ich benutze immer den google DNS, da dieser DNS in den wenigsten fällen zu einem DNS Leak führt, falls der VPN DNS versehentlich nicht richtig funktioniert. Aber was ist denn ein DNS leak? Ein DNS Leak ist wenn der DNS Server versehentlich eine nicht verschlüsselte Anfrage schickt und diese Anfrage somit für den ISP sichtbar wird. Deshalb sollte man trotz des DNS von dem VPN immer zusätzlich den google DNS als backup nutzen. Für Ipv4 ist der DNS 4.4.4.4 und 8.8.8.8, immer 2 DNS Server nutzen falls einer nicht funktioniert, denn wir wollen in allen Fällen den DNS des ISP's vermeiden. Für Ipv6 lautet es 2001:4860:4860::8888 und 2001:4860:4860::8844. Man kann auch testen ob der VPN Anbieter DNS leaks hat: <a href="https://www.dnsleaktest.com/" alt="dnsleaktest">hier der Link</a></p>
 	</div>
 	<footer>
 		<div class="footerdiv">
